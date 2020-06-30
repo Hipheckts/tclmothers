@@ -1,0 +1,214 @@
+.ftco-schedule {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.ftco-schedule .nav-pills {
+  width: 100%;
+  display: block;
+}
+.ftco-schedule .nav-pills p {
+  margin-bottom: 0;
+}
+.ftco-schedule .nav-pills .nav-link {
+  padding: 35px 30px !important;
+  border-radius: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  border: 1px solid transparent;
+  background: #bd3e9e;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+.ftco-schedule .nav-pills .nav-link:after {
+  position: absolute;
+  top: 50%;
+  bottom: 10px;
+  right: -11px;
+  width: 0;
+  height: 0;
+  margin-top: -10px;
+  content: "";
+  border-style: solid;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #bd3e9e;
+  opacity: 0;
+}
+.ftco-schedule .nav-pills .nav-link span {
+  display: block;
+  font-size: 24px;
+  font-weight: 200;
+}
+@media (max-width: 767.98px) {
+  .ftco-schedule .nav-pills .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+.ftco-schedule .nav-pills .nav-link:hover {
+  background: #1b8eae;
+  color: #fff;
+}
+.ftco-schedule .nav-pills .nav-link.active {
+  color: #fff;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  background: #bd3e9e;
+}
+.ftco-schedule .nav-pills .nav-link.active:after {
+  opacity: 1;
+}
+@media (max-width: 767.98px) {
+  .ftco-schedule .nav-pills .nav-link.active:after {
+    opacity: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .ftco-schedule .nav-pills .nav-link {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+.ftco-schedule .tab-content {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+
+.speaker-wrap {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.speaker-wrap .speaker-img {
+  width: 180px;
+  height: 250px;
+}
+@media (max-width: 767.98px) {
+  .speaker-wrap .speaker-img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
+  }
+}
+.speaker-wrap .text {
+  width: calc(100% - 180px);
+  padding-left: 40px;
+}
+@media (max-width: 767.98px) {
+  .speaker-wrap .text {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+.speaker-wrap .text h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.speaker-wrap .text h2 a {
+  color: #bd3e9e;
+}
+.speaker-wrap .text h3.speaker-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.speaker-wrap .text .position {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.speaker-wrap .text .time {
+  font-weight: 600;
+  color: #bd3e9e;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+.speaker-wrap .text .location {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.speaker {
+  width: 100%;
+}
+.speaker .img {
+  width: 100%;
+  display: block;
+  background-position: top center;
+  position: relative;
+}
+.speaker.speaker-1 .img {
+  width: 120px;
+  height: 160px;
+}
+@media (max-width: 767.98px) {
+  .speaker.speaker-2 {
+    height: 600px;
+    margin-bottom: 60px;
+  }
+}
+.speaker .text {
+  position: relative;
+}
+.speaker .text.text-absolute {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+  display: inline-block;
+}
+.speaker h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #bd3e9e;
+}
+.speaker .position {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.speaker .ftco-social {
+  margin: 0;
+  padding: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.speaker .ftco-social li {
+  display: inline-block;
+  padding: 0 5px;
+}
+.speaker .ftco-social li a {
+  color: #bd3e9e;
+  font-size: 18px;
+}
+.speaker .ftco-social li a:hover,
+.speaker .ftco-social li a:focus {
+  color: #bd3e9e;
+}
